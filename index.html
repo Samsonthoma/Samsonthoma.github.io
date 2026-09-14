@@ -266,6 +266,25 @@
         <p class="overline">Have an idea?</p><h2>Let's build<br />something <em>useful.</em></h2>
         <div class="contact-row"><p>Open to collaborations, conversations,<br />and creative technology projects.</p><form class="contact-form"><label class="sr-only" for="contact-message">Your message</label><input id="contact-message" name="message" type="text" required placeholder="Write a message..." /><button class="email-link" type="submit">Say hello <span>↗</span></button></form></div>
       </section>
+      <!-- Email App Choice Modal -->
+<div id="email-modal" class="modal-overlay" aria-hidden="true">
+  <div class="modal-card">
+    <button id="close-modal" class="modal-close" aria-label="Close modal">&times;</button>
+    <h3>How would you like to send your message?</h3>
+    <p>Select your preferred email provider or app:</p>
+    <div class="modal-actions">
+      <button id="opt-gmail" class="button button-primary">
+        <span>🌐</span> Open Gmail (Browser)
+      </button>
+      <button id="opt-outlook" class="button button-secondary">
+        <span>☁</span> Open Outlook Web
+      </button>
+      <button id="opt-default" class="button button-secondary">
+        <span>💻</span> Default Mail App (Outlook / Apple Mail)
+      </button>
+    </div>
+  </div>
+</div>
     </main>
     <footer><a class="brand" href="#home">ST<span>.</span></a><p>© <span id="year"></span> Samson Thomas</p><div><a href="https://www.linkedin.com/in/samson-thomas" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://www.credly.com/users/samsonthomas" target="_blank" rel="noopener noreferrer">Credly</a><a href="https://github.com/Samsonthoma" target="_blank" rel="noopener noreferrer">GitHub</a></div></footer>
     <script src="script.js"></script>
