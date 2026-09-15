@@ -1,0 +1,21 @@
+{
+  "name": "Samson Thomas Portfolio",
+  "short_name": "Samson Thomas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080b14",
+  "theme_color": "#0284c7",
+  "description": "Portfolio of Samson Thomas — software developer, AI prompt engineer, and educator.",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
